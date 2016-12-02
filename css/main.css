@@ -1,0 +1,373 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+h1{
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.nav{
+    display:-webkit-flex;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color:#36454f;
+    background: rgba(225, 225, 225, 0.5);
+    
+}
+
+.welcome{
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    height: 750px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #FF0080;
+    background: rgba(225, 225, 225, 0.5);
+    
+}
+
+#welcome-h2 {
+    max-width: 800px;
+    color: #36454f;
+}
+
+#list-h2 {
+    max-width: 900px;
+}
+
+#notify-h2 {
+    max-width: 900px;
+}
+
+#logo{
+    -webkit-flex: 3 0 0;
+    margin: 15px;
+
+}
+
+#navcontainer{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+#navcontainer ul li {
+    display: inline-block;
+    padding: 15px;
+    justify-content: center;
+}
+.howheader{
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    height: 600px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #ff0080;
+    background: #fafafa;
+}
+
+#header-text {
+    padding-top: 550px;
+}
+.how{
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    height: 700px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #36454f;
+    background-color: #fafafa;
+}
+
+#step1{
+    max-width: 300px;
+    padding: 1em;
+}
+
+#step2{
+    max-width: 300px;
+    padding: 1em;
+}
+
+#step3{
+    max-width: 300px;
+    padding: 1em;
+}
+
+.checkspaces {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    background-color: white;
+    color: #FF0080;
+}
+
+#checkspaceheader {
+    font-size: 50px;
+}
+
+.bg {
+    background-image: url(http://orig15.deviantart.net/fc8e/f/2009/075/3/8/warmer_summer_warehouse_by_nektares.jpg);
+    background-size: cover;
+}
+
+.checkout {
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  background-color: white;
+}
+
+.col {
+  padding: 1em;
+}
+
+.col:hover {
+    transform: scale(1.15);
+    transition: transform .5s ease-in;
+    transition: transform .2s ease-out;
+}
+
+
+#gallery1 {
+    background-color: blue;
+    z-index: 4;
+}
+
+.list{
+    position: relative;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-box-shadow: 0px 0px 65px 3px rgba(0,0,0,0.26);
+    height: 700px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #FF0080;
+    /* background-image: url(http://svgshare.com/i/Eq.svg); */
+    background-color: white;
+    background-size: cover;
+    z-index: 2;
+}
+
+.notify{
+     position: relative;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    height: 800px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #08e8de;
+}
+.gallery-img-wrapper{
+ position: relative;
+}
+
+.description{
+    position: absolute;
+    bottom:5px;
+    width: 100%;
+    height: 75px;
+    background: rgba(0,0,0,.5);
+}
+.title{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 25px;
+}
+.location{
+    color: #08e8de;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    padding-left: 10px;
+}
+
+#top-button {
+    background-color: white; /* Green */
+    border: none;
+    border-radius: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #36454;
+    padding: 15px 32px;
+    margin: 25px;
+    margin-bottom: 150px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    width: 255px;
+    height: 50px;
+}
+
+#last-button{
+    background-color: white; /* Green */
+    border: none;
+    border-radius: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #36454;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    width: 255px;
+    height: 50px;
+}
+
+#nav-button{
+    background-color: white; /* Green */
+    border: none;
+    border-radius: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #36454;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 155px;
+}
+
+#list-now-button {
+    background-color: #ff0080;
+    border: none;
+    border-radius: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 15px 32px;
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 235px;
+}
+
+#top-button:hover{
+    background-color: magenta;
+}
+
+#nav-button:hover{
+    background-color: cyan;
+}
+
+#last-button:hover{
+    background-color: #ff0080;
+}
+
+#list-now-button:hover{
+    background-color: cyan;
+}
+
+
+.enjoy-css {
+  display: inline-block;
+  box-sizing: content-box;
+  padding: 10px 20px;
+  border: 2px solid #b7b7b7;
+  border-radius: 40px;
+  font: normal 16px/normal "Lucida Console", Monaco, monospace;
+  color: rgba(0,142,198,1);
+  text-align: center;
+  text-overflow: clip;
+  background: rgba(252,252,252,1);
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  height: 30px;
+}
+
+#test-pic{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 85%;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#testpicpng {
+    width: 1000px;
+    display: inline-block;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 17px 89px -20px rgba(0,0,0,0.75);
+}
+
+#input {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#submit {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#error {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#confirmation {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#list-counter {
+    padding-top: 65px;
+    font-size: 55px;
+    color: #36454f;
+}

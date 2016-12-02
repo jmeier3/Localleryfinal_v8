@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 257 100" style="enable-background:new 0 0 257 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'Montserrat-Bold';}
+	.st1{font-size:66.6577px;}
+	.st2{letter-spacing:5;}
+	.st3{font-size:64.5694px;}
+	.st4{clip-path:url(#SVGID_2_);}
+	.st5{font-size:63.9384px;}
+	.st6{clip-path:url(#SVGID_4_);}
+	.st7{font-size:63.0197px;}
+</style>
+<g>
+	<text transform="matrix(1 0 0 1 1.0361 73.5)" class="st0 st1 st2">9</text>
+	<text transform="matrix(1 0 0 1 68.9893 73.5)" class="st0 st3 st2">1</text>
+	<text transform="matrix(1 0 0 1 132.9893 73.5)" class="st0 st3 st2">1</text>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="172.167" y="55.75" width="99.333" height="30.75"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st4">
+			<text transform="matrix(1 0 0 1 195.2021 101.5)" class="st0 st5 st2">4</text>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_3_" x="181.75" y="15.25" width="63.25" height="34.25"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st6">
+			<text transform="matrix(1 0 0 1 194.9463 45.5)" class="st0 st5 st2">5</text>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 45.4839 73.5)" class="st0 st7 st2">,</text>
+</g>
+</svg>
