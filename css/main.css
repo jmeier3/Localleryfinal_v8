@@ -28,35 +28,39 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     color:#36454f;
-    background: rgba(225, 225, 225, 0.5);
+    background: rgba(225, 225, 225, 0.6);
     
 }
 
 .welcome{
     display: -webkit-flex;
     -webkit-flex-direction: column;
-    height: 750px;
+    height: 1250px;
     text-align: center;
     align-items: center;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #FF0080;
-    background: rgba(225, 225, 225, 0.5);
+    background: rgba(225, 225, 225, 0.6);
     
 }
 
 #welcome-h2 {
     max-width: 800px;
     color: #36454f;
+    line-height: 50px;
 }
 
 #list-h2 {
     max-width: 900px;
+    color: #08e8de;
+    line-height: 50px;
 }
 
 #notify-h2 {
     max-width: 900px;
+    line-height: 50px;
 }
 
 #logo{
@@ -86,10 +90,11 @@ h3 {
     font-weight: bold;
     color: #ff0080;
     background: #fafafa;
+    z-index: 3;
 }
 
 #header-text {
-    padding-top: 550px;
+    padding-top: 600px;
 }
 .how{
     display: -webkit-flex;
@@ -107,16 +112,19 @@ h3 {
 #step1{
     max-width: 300px;
     padding: 1em;
+    line-height: 26px;
 }
 
 #step2{
     max-width: 300px;
     padding: 1em;
+    line-height: 26px;
 }
 
 #step3{
     max-width: 300px;
     padding: 1em;
+    line-height: 26px;
 }
 
 .check-spaces {
@@ -130,7 +138,7 @@ h3 {
 }
 
 #check-space-header {
-    font-size: 50px;
+    font-size: 80px;
 }
 
 .bg {
@@ -169,7 +177,7 @@ h3 {
     display: -webkit-flex;
     -webkit-flex-direction: column;
     -webkit-box-shadow: 0px 0px 65px 3px rgba(0,0,0,0.26);
-    height: 700px;
+    height: 900px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -225,6 +233,7 @@ h3 {
     border: none;
     border-radius: 40px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     color: #36454;
     padding: 15px 32px;
     margin: 25px;
@@ -243,12 +252,13 @@ h3 {
     border: none;
     border-radius: 40px;
     font-family: 'Montserrat', sans-serif;
-    color: #36454;
+    color: #white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
+    font-weight: bold;
     width: 255px;
     height: 50px;
 }
@@ -258,6 +268,7 @@ h3 {
     border: none;
     border-radius: 40px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     color: #36454;
     padding: 15px 32px;
     text-align: center;
@@ -272,6 +283,7 @@ h3 {
     border: none;
     border-radius: 40px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     color: white;
     padding: 15px 32px;
     margin-top: 15px;
@@ -305,7 +317,7 @@ h3 {
 }
 
 
-.enjoy-css {
+.box-css {
   display: inline-block;
   box-sizing: content-box;
   padding: 10px 20px;
@@ -336,7 +348,7 @@ h3 {
 }
 
 #testpicpng {
-    width: 1000px;
+    width: 1300px;
     display: inline-block;
     border-radius: 15px;
     -webkit-box-shadow: 0px 17px 89px -20px rgba(0,0,0,0.75);
@@ -361,13 +373,13 @@ h3 {
 }
 
 #error {
-    color: white;
+    color: #ff0080;
     font-size: 20px;
     font-weight: bold;
 }
 
 #confirmation {
-    color: white;
+    color: #ff0080;
     font-size: 20px;
     font-weight: bold;
 }
